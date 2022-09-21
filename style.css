@@ -4,7 +4,7 @@ margin: 0;
 box-sizing: border-box;
 }
 .navbar-brand{
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     color: rgba(11, 117, 238, 0.436);
     font-family: 'Pacifico', cursive;
     
@@ -28,7 +28,7 @@ box-sizing: border-box;
     cursor: pointer;
 }
 .main{
-    background: url(./images/electric4.jpg);
+    background: url(./images/electric/electric4.jpg);
     font-family:Arial, Helvetica, sans-serif;
     color: rgb(180, 200, 209);
     background-size: cover;
@@ -52,15 +52,32 @@ width: 40%;
 color: white;
 outline: none;
 border: none;
-background-color: rgb(192, 179, 62);
+background-color: rgb(210, 212, 106);
 font-weight: bold;
 transition: all 0.4s;
 cursor: pointer;
 }
 .btn2:hover{
-    border: 1px solid rgb(11, 102, 238);
+    border: 1px solid rgb(255, 255, 255);
     background: transparent;
     color: rgb(11, 238, 143);
+    transition: all 0.4s;
+}
+.btn3{
+    height: 45px;
+    width: 40%;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: rgb(14, 177, 27);
+    font-weight: bold;
+    transition: all 0.4s;
+    cursor: pointer;   
+}
+.btn3:hover{
+    border: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    color: rgb(21, 176, 197);
     transition: all 0.4s;
 }
 .btnc{
@@ -99,7 +116,7 @@ cursor: pointer;
 }
 /* ================= */
 .product h1{
-    font-weight: 600;
+    font-weight: 800;
     font-size: 2.6rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style:italic;
@@ -108,13 +125,13 @@ cursor: pointer;
     background:rgb(194, 202, 202);
 }
 .discount{
-    height: 50px;
+    height: 55px;
     width: 65px;
-    background: rgb(36, 125, 119);
+    background: rgb(154, 13, 13);
     font-size: 1.2rem;
     border-radius: 50%;
     padding: 12px 6px;
-    color: rgb(233, 24, 24);
+    color: rgb(245, 245, 245);
     position:absolute;
     top: 15%;
     left: 85%;

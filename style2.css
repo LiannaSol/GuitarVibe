@@ -1,6 +1,6 @@
 .row4 {
     display: -ms-flexbox; /* IE10 */
-    background: aqua;
+    background: rgb(162, 181, 181);
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
@@ -29,7 +29,7 @@
   }
   
   .container4 {
-    background-color: rgb(31, 198, 173);
+    background-color: rgb(131, 198, 172);
     padding: 5px 20px 15px 20px;
     border: 1px solid lightgrey;
     border-radius: 3px;
@@ -39,7 +39,7 @@
     width: 100%;
     margin-bottom: 20px;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(140, 215, 154);
     border-radius: 3px;
   }
   
@@ -84,6 +84,7 @@
       margin-bottom: 20px;
     }
   }
+  /*-----top checkout------*/
   *{
     padding: 0;
     margin: 0;
@@ -112,4 +113,16 @@
         color: rgb(143, 11, 238);
         font-size: 1.1rem;
         cursor: pointer;
+    }
+    /*------bottom checkout------*/
+    .iconic{
+        text-align: justify;
+        font-family: 'prompt' , sans-serif;
+        background-color: rgb(89, 166, 166);
+        font-size: 1.4rem;
+        
+    }
+    .icon{
+        color: rgba(160, 54, 19, 0.895);
+        font-size: 2.5rem;
     }
